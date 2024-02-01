@@ -1,0 +1,28 @@
+apply plugin:'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(platform('org.junit:junit-bom:5.8.1'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task(main, dependsOn: 'classes', type: JavaExec) {
+    mainClass = 'se.yrgo.library.ui.Main'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'se.yrgo.library.ui.Main'
+    }
+}
+
+defaultTasks 'clean', 'compileJava', 'test', 'javadoc', 'main'
+
