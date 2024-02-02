@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="se.yrgo.library.BookCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-01T23:13:43" hostname="Pouyas-Air.lan" time="0.014">
+<testsuite name="se.yrgo.library.BookCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-02T00:25:38" hostname="Pouyas-Air.lan" time="0.014">
   <properties/>
   <testcase name="testAddABook()" classname="se.yrgo.library.BookCatalogTest" time="0.009"/>
   <testcase name="testFindBook()" classname="se.yrgo.library.BookCatalogTest" time="0.0"/>
