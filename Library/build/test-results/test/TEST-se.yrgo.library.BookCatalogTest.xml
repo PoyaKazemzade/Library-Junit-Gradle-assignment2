@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="se.yrgo.library.BookCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-02T00:25:38" hostname="Pouyas-Air.lan" time="0.014">
+<testsuite name="se.yrgo.library.BookCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-12T14:23:36" hostname="Pouyas-MacBook-Air.local" time="0.013">
   <properties/>
   <testcase name="testAddABook()" classname="se.yrgo.library.BookCatalogTest" time="0.009"/>
-  <testcase name="testFindBook()" classname="se.yrgo.library.BookCatalogTest" time="0.0"/>
+  <testcase name="testFindBook()" classname="se.yrgo.library.BookCatalogTest" time="0.001"/>
   <testcase name="testFindBookIgnoringCase()" classname="se.yrgo.library.BookCatalogTest" time="0.0"/>
-  <testcase name="testFindBookWithExtraSpaces()" classname="se.yrgo.library.BookCatalogTest" time="0.001"/>
-  <testcase name="testFindBookThatDoesntExist()" classname="se.yrgo.library.BookCatalogTest" time="0.001"/>
+  <testcase name="testFindBookWithExtraSpaces()" classname="se.yrgo.library.BookCatalogTest" time="0.0"/>
+  <testcase name="testFindBookThatDoesntExist()" classname="se.yrgo.library.BookCatalogTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
